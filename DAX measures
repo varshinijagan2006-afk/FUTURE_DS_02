@@ -1,1 +1,17 @@
+Total Ad Spend =
+SUM(Campaign_Data[tv]) +
+SUM(Campaign_Data[billboards]) +
+SUM(Campaign_Data[google_ads]) +
+SUM(Campaign_Data[social_media]) +
+SUM(Campaign_Data[influencer_marketing]) +
+SUM(Campaign_Data[affiliate_marketing])
+
+Total Sales =
+SUM(Campaign_Data[product_sold])
+
+ROI =
+DIVIDE([Total Sales], [Total Ad Spend])
+
+Social Media Spend =
+SUM(Campaign_Data[social_media])
 
